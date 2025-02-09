@@ -86,9 +86,6 @@ a {
 #intro .home {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro.jpg) no-repeat center/cover;
-  background-position: center center;
-  filter: blur(1px);
   animation: colorChange 4s ease infinite;
 }
 
