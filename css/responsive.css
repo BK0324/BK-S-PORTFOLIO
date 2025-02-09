@@ -1,0 +1,617 @@
+@media screen and (max-width: 1440px) {
+    body {
+        overflow: visible;
+        background-color: #1C1B21;
+        width: 100%;
+        height: 100vh;
+        font-family: "Audiowide", sans-serif;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .main .main-title {
+        line-height: 2;
+    }
+
+    .main .ub {
+        width: 20vw;
+        transform: rotate(-90deg);
+        left: 15vw;
+        top: 32rem;
+        gap: 2vh;
+    }
+
+    .main .lb {
+        width: 20vw;
+        transform: rotate(90deg);
+        left: 65vw;
+        top: 33rem;
+        gap: 2vh;
+    }
+
+    .about-pop .intro-box {
+        transition: all .5s;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 2vh;
+    }
+
+    .about-pop .intro-box .imgarea {
+        width: 30vw;
+        height: 70vh;
+        margin-top: 2vh;
+    }
+
+    .about-pop .intro-box .info {
+        padding-left: 0;
+        padding: 3rem;
+        gap: 1vh;
+    }
+
+    .about-pop .intro-box .info .txtarea {
+        margin-top: -2vh;
+        text-align: center;
+    }
+
+    .about-pop .intro-box .info .txtarea p {
+        font-size: 1.5vw;
+    }
+
+    .about-pop .intro-box .info .txtarea p b {
+        font-size: 3vw;
+    }
+
+    .about-pop .intro-box .info .txtarea .contact li a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .about-pop .intro-box .info .txtarea .contact li a span {
+        font-size: 1.5vw;
+        white-space: nowrap;
+    }
+
+    .about-pop .intro-box .info .tools {
+        text-align: center;
+    }
+
+    .about-pop .intro-box .info .tools p {
+        font-size: 3vw;
+        margin-top: 8vh;
+    }
+
+    .about-pop .intro-box .info .tools .icons {
+        column-gap: 2vw;
+        flex-wrap: wrap;
+    }
+
+    .about-pop .intro-box .info .resume a {
+        display: block;
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 2vh;
+    }
+
+    .wdpop .mainbt a,
+    .adpop .mainbt a,
+    .ccpop .mainbt a,
+    .vdpop .mainbt a {
+        padding: 2vw 4vh;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .wdpop .container {
+        transition: all .5s;
+        margin-top: -10vh;
+    }
+
+    .adpop .container {
+        transition: all .5s;
+        margin-top: -20vh;
+        margin-left: 50vw;
+    }
+
+    .adpop .container a {
+        width: 35vw;
+        margin-left: -2vw;
+    }
+
+    .adpop .container a img {
+        width: 100%;
+    }
+
+    .adpop .container a:nth-child(2) {
+        transform: rotate(20deg);
+    }
+
+    .ccpop .container {
+        transition: all .5s;
+        margin-top: -25vh;
+    }
+
+    .vdpop .container {
+        transition: all .5s;
+        margin-top: -10vh;
+    }
+
+    .listpop1 .body .imgbox {
+        flex-wrap: nowrap;
+        gap: 2vw;
+    }
+
+    .listpop1 .btn {
+        padding: 1vw 5vh;
+        margin-left: 50vw;
+    }
+
+    .listpop2 .body .imgbox {
+        margin-top: 1vh;
+    }
+
+    .listpop2 .body .imgbox a {
+        margin-bottom: 1.5vh;
+        padding: 0;
+    }
+
+    .listpop2 .btn {
+        transform: translateX(-65%);
+    }
+
+    .listpop3 .header {
+        width: 20vw;
+        height: 100vh;
+        border-bottom: none;
+        border-right: 1px solid #ddd;
+        position: relative;
+        text-align: center;
+    }
+
+    .listpop3 .Daegu {
+        display: none;
+    }
+
+    .listpop3 .Daegu .swiper-wrapper .swiper-slide {
+        margin-top: 15vh;
+        transition: all .3s;
+    }
+
+    .listpop3 .Daegu2 {
+        display: block;
+        position: absolute;
+        top: 5vh;
+        left: 45vw;
+    }
+
+    .listpop3 .Daegu2 .swiper-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 100vh;
+    }
+
+    .listpop3 .btn {
+        position: absolute;
+        bottom: 2vh;
+        left: -36vw;
+    }
+
+    .end .main-title::after {
+        transition: all .5s;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main .ub,
+    .main .lb {
+        top: 32rem;
+    }
+
+    .wdpop .mainbt a,
+    .adpop .mainbt a,
+    .ccpop .mainbt a,
+    .vdpop .mainbt a {
+        padding: 2vw 3vh;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .end .main-title::after {
+        transition: all .5s;
+        height: 4vh;
+    }
+
+    .adpop .container {
+        margin-top: -15vh;
+    }
+
+    .about-pop .intro-box .info .tools p {
+        margin-top: 10vh;
+    }
+
+    .about-pop .intro-box .info .tools .icons {
+        margin-top: 7vh;
+    }
+
+    .ccpop .container {
+        transition: all .5s;
+        margin-top: -20vh;
+    }
+
+    .vdpop .container {
+        margin-top: 10vh;
+        margin-left: 40vw;
+    }
+
+    .listpop1 .body .imgbox {
+        width: 100%;
+    }
+
+    .listpop1 .body .imgbox a {
+        width: 40vw;
+        height: 45vh;
+    }
+
+    .listpop1 .btn {
+        padding: 1vw 5vh;
+        margin-left: 50vw;
+        transform: translate(-10vw, -120%);
+    }
+
+    .listpop2 .body .imgbox {
+        flex-wrap: wrap;
+        margin-top: -2vh;
+    }
+
+    .listpop2 .body .imgbox a {
+        padding: 0;
+        width: 40vw;
+        height: 35vh;
+    }
+
+    .listpop2 .btn {
+        padding: 1vh 5vw;
+        transform: translate(-65%, -60%);
+    }
+
+    .listpop3 .Daegu2 .swiper-wrapper .swiper-slide {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: "Audiowide", sans-serif;
+    }
+
+    .main .ub,
+    .main .lb {
+        top: 32rem;
+    }
+
+    .ccpop .mainbt a,
+    .vdpop .mainbt a {
+        padding: 2vw 2vh;
+        font-size: 2vw;
+        top: 35vh;
+        left: 50vw;
+        text-align: center;
+    }
+
+    .listpop3 .swiper-wrapper .swiper-slide {
+        margin-top: 20vh;
+        transition: all .3s;
+    }
+
+    .end .main-title::after {
+        transition: all .5s;
+        height: 2vh;
+    }
+
+    .wdpop .mainbt h1 {
+        text-align: center;
+    }
+
+    .wdpop .mainbt a {
+        top: 35vh;
+        left: 55vw;
+        font-size: 3vw;
+    }
+
+    .wdpop .container {
+        margin-top: 10vh;
+        margin-left: 29vw;
+        gap: 2vh;
+    }
+
+    .klm {
+        left: 50%;
+    }
+
+    .klm a {
+        width: 60vw;
+    }
+
+    .adpop .container {
+        margin-top: -5vh;
+    }
+
+    .about-pop .intro-box .info .txtarea .contact {
+        margin-top: 4vh;
+    }
+
+    .about-pop .intro-box .info .tools p {
+        margin-top: 15vh;
+    }
+
+    .ccpop .mainbt h1 {
+        margin-top: -3vh;
+        text-align: center;
+    }
+
+    .ccpop .mainbt a {
+        left: 55vw;
+        font-size: 3vw;
+    }
+
+    .ccpop .container {
+        margin-top: 25vh;
+        margin-left: 40vw;
+        display: flex;
+        width: 80vw;
+        margin-left: 18vw;
+    }
+
+    .ccpop .container .bx {
+        width: 10vw;
+        height: 300px;
+    }
+
+    .ccpop .container .bx a span {
+        transform: rotate(-90deg);
+        margin-top: 20vh;
+        font-size: 2.5vw;
+    }
+
+    .ccpop .container .bx.active a span {
+        transform: rotate(0);
+        margin-top: 0;
+        font-size: 2.5vw;
+    }
+
+    .vdpop .mainbt h1 {
+        text-align: center;
+    }
+
+    .vdpop .mainbt a {
+        left: 55vw;
+        font-size: 3vw;
+    }
+
+    .vdpop .container {
+        margin-top: 30vh;
+        margin-left: 28vw;
+    }
+
+    .listpop1 .header {
+        border-right: 1px solid white;
+        border-bottom: none;
+        height: 100vh;
+        width: 20vw;
+        text-align: center;
+    }
+
+    .listpop1 .body .imgbox {
+        position: absolute;
+        top: 1.5vh;
+        left: 45vw;
+        flex-direction: column;
+    }
+
+    .listpop1 .body .imgbox a {
+        width: 35vw;
+        height: 30vh;
+        margin-bottom: 5vh;
+    }
+
+    .listpop2 .body .imgbox a {
+        height: 30vh;
+    }
+
+    .listpop1 .btn,
+    .listpop3 .btn {
+        position: absolute;
+        padding: 2vw 3vh;
+        bottom: 0;
+        left: -33vw;
+    }
+
+    .listpop2 .btn {
+        transform: translate(-70%, -70%);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        font-family: "Audiowide", sans-serif;
+    }
+
+    .main-title {
+        margin-top: 3vh;
+    }
+
+    .main .ub {
+        top: 33rem;
+    }
+
+    .main .lb {
+        top:32.5rem;
+    }
+
+    .wdpop .container .text a {
+        font-size: 4vw;
+        line-height: 80%;
+    }
+
+    .adpop .mainbt h1 {
+        text-align: center;
+    }
+
+    .adpop .mainbt a {
+        padding: 4vw 4vh;
+        font-size: 3vw;
+        top: 35vh;
+        left: 55vw;
+    }
+
+    .adpop .container {
+        margin-top: 25vh;
+        margin-left: 40vw;
+    }
+
+    .about-pop .intro-box {
+        width: 65vw;
+    }
+
+    .ccpop .container {
+        flex-direction: column;
+        margin-left: 13vw;
+    }
+
+    .ccpop .container .bx {
+        width: 80vw;
+        height: 50px;
+    }
+
+    .ccpop .container .bx.active {
+        width: 80vw;
+        height: 250px;
+    }
+
+    .ccpop .container .bx a span {
+        transform: rotate(0);
+        margin-top: 0;
+        font-size: 3vw;
+    }
+
+    .ccpop .container .bx.active a span {
+        transition: all .5s;
+        font-size: 3.5vw;
+    }
+
+    .ccpop .container .bx.active a img {
+        height: 20vh;
+        margin-left: 8vw;
+    }
+
+    .vdpop .mainbt a {
+        left: 55vw;
+    }
+
+    .vdpop .container {
+        margin-top: 35vh;
+        margin-left: 25vw;
+    }
+
+    .vdpop .container .Menu-list {
+        gap: 5vh;
+    }
+
+    .listpop1 .body .imgbox a {
+        width: 50vw;
+        margin-bottom: 6vh;
+        margin-left: -5vw;
+    }
+
+    .listpop2 .header {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .listpop2 .body .imgbox {
+        margin-top: 0;
+    }
+
+    .listpop2 .body .imgbox a {
+        height: 30vw;
+    }
+
+    .listpop1 .btn {
+        padding: 1.5vw 2vh;
+        left: -37vw;
+    }
+
+    .listpop2 .btn {
+        padding: 2vw 5vh;
+        margin-top: 2vh;
+        margin-left: 50vw;
+        transform: translateX(-70%);
+    }
+
+    .listpop3 .btn {
+        padding: 2vw 2vh;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-family: "Audiowide", sans-serif;
+    }
+
+    .main-title {
+        margin-top: 3vh;
+    }
+
+    .main .ub {
+        top: 32.5rem;
+    }
+
+    .main .lb {
+        top: 31.7rem;
+    }
+
+    .wdpop .container {
+        margin-left: 30vw;
+    }
+
+    .about-pop .intro-box {
+        width: 60vw;
+    }
+
+    .listpop1 .btn {
+        padding: 1vw 1.5vh;
+        left: -38vw;
+    }
+
+    .listpop2 .body .imgbox a {
+        margin-bottom: 1.5vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-family: "Audiowide", sans-serif;
+    }
+
+    .main-title {
+        margin-top: 3vh;
+    }
+
+    .main .ub {
+        top: 33rem;
+    }
+
+    .main .lb {
+        top: 31.7rem;
+    }
+
+    .listpop1 .btn {
+        padding: 1.5vw 2vh;
+        left: -38vw;
+        font-size: 1rem;
+    }
+}`

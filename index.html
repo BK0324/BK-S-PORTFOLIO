@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Bokyeong Seong</title>
+    <!-- 검색엔진 ▷ Yeti : naver, googlebot: google, daumoa : daum -->
+    <meta name="robots" content="All">
+    <meta name="Yeti" content="index, follow">
+    <meta name="Yeti" content="All">
+    <meta name="googlebot" content="All">
+    <meta name="googlebot" content="index, follow">
+    <meta name="daumoa" content="All">
+    <meta name="daumoa" content="index, follow">
+    <meta name="title" content="웹디자이너 - 성보경 포트폴리오">
+    <meta name="description" content="웹디자이너 성보경입니다. 포트폴리오 방문을 환영">
+    <meta name="keywords" content="웹디자이너, 웹퍼블리셔, 대구 디자이너">
+    <meta name="author" content="성보경">
+    <meta name="content-language" content="kr">
+    <!-- 오픈그래프 -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="okeyboki">
+    <meta property="og:title" content="Okeyboki">
+    <meta property="og:description" content="Wicked Wonderland">`
+    <meta property="og:image" content="img/channels4_profile.jpg">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fullpage.css">`
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b900097f51.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Scripts -->`
+    <script src="js/fullpage.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div id="intro">
+        <!-- <section class="home">
+            <marquee direction="right" scrollamount="30">ENFP</marquee>
+            <marquee direction="left" scrollamount="30">Vagabond</marquee>
+            <marquee direction="right" scrollamount="25">Free Spirit</marquee>
+        </section> -->
+        <video src="img/Intro_UI6.mp4" autoplay muted></video>
+        <!-- <div class="intro-text">
+            <p>B</p>
+            <p>O</p>
+            <p>K</p>
+            <p>Y</p>
+            <p>E</p>
+            <p>O</p>
+            <p>N</p>
+            <p>G</p>
+            &nbsp;
+            <p>S</p>
+            <p>E</p>
+            <p>O</p>
+            <p>N</p>
+            <p>G</p>
+        </div> -->
+        <div id="round" class="round"></div>
+    </div>
+
+    <i class="fa-solid fa-computer-mouse"></i>
+    <main id="fullpage">
+        <section id="int" class="section">
+            <div class="intro">
+                <h1 data-linecount="2" class="Title">Would anyone be interested in<br> Taking a look at My Portfolio?
+                </h1>
+            </div>
+        </section>
+        <section id="main" class="section">
+            <div class="main">
+                <!-- <div class="dir-down">
+                    <i class="fa-solid fa-arrow-down">&nbsp; Click</i>
+                    <i class="fa-solid fa-arrow-down">&nbsp; Click</i>
+                </div> -->
+                <div class="ub">
+                    <button onclick="location.href='#'">Web Design</button>
+                    <button onclick="location.href='#'">App Design</button>
+                </div>
+
+                <h1 class="main-title" data-text="BOKYEONG'S PORTFOLIO">BOKYEONG'S<br>PORTFOLIO</h1>
+
+                <!-- <div class="dir-up">
+                    <i class="fa-solid fa-arrow-up">&nbsp; Click</i>
+                    <i class="fa-solid fa-arrow-up">&nbsp; Click</i>
+                </div> -->
+                <div class="lb">
+                    <button onclick="location.href='#'">Clone Coding</button>
+                    <button onclick="location.href='#'">Various Design</button>
+                </div>
+
+                <div class="side-button">
+                    <button type="button" class="about" onclick="location.href='#'">ABOUT</button>
+                    <button type="button" class="contact" onclick="location.href='#'">CONTACT</button>
+                </div>
+            </div>
+        </section>
+        <section id="end" class="section">
+            <div class="end">
+                <canvas id="fireworksCanvas" width="800" height="600"></canvas>
+                <h1 class="main-title">Thank you</h1>
+            </div>
+        </section>
+    </main>
+
+    <!-- sidebutton > popup -->
+    <div class="about-pop">
+        <button type="button" onclick="location.href='#'">Close</button>
+        <div class="intro-box in">
+            <div class="imgarea"></div>
+            <div class="info">
+                <div class="txtarea">
+                    <p><b>성보경</b>(Bokyeong Seong)</p>
+                    <ul class="contact">
+                        <li>
+                            <a href="tel:010-8294-0759">
+                                <img src="img/Phonecall.png" alt="phone call">
+                                <span>010.8294.0759</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sjym0113@naver.com">
+                                <img src="img/mail.png" alt="mail">
+                                <span>sjym0113@naver.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/Mappin.png" alt="map pin">
+                                <span>Dalseo-gu, Daegu, Republic of Korea</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tools">
+                    <p>Tools</p>
+                    <ul class="icons">
+                        <li><a href="#"><img src="img/VisualStudioCode.png" alt="VSCode"></a></li>
+                        <li><a href="#"><img src="img/HTML.png" alt="HTML"></a></li>
+                        <li><a href="#"><img src="img/CSS.png" alt="CSS"></a></li>
+                        <li><a href="#"><img src="img/Javascript.png" alt="JAVAS"></a></li>
+                        <li><a href="#"><img src="img/photoshop.png" alt="Photoshop"></a></li>
+                        <li><a href="#"><img src="img/Illustrator.png" alt="Illustrator"></a></li>
+                        <li><a href="#"><img src="img/Indesign.png" alt="Indesign"></a></li>
+                        <li><a href="#"><img src="img/Figma.png" alt="Figma"></a></li>
+
+                    </ul>
+                </div>
+                <div class="resume">
+                    <a href="img/Resume_BK(2).pdf" target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-pop">
+        <button type="button" onclick="location.href='#'">Close</button>
+        <div class="profile">
+            <img src="img/profile2.jpg" alt="profile2">
+        </div>
+        <h2 class="story">
+            Hello ! This is BOKYEONG :)<br>
+            I'm a(n) <span></span>
+        </h2>
+        <ul class="sns">
+            <li><a href="mailto:sjym0113@kakao.com"><img src="img/Kakaotalk.png" alt="kakaotalk"></a></li>
+            <li><a href="https://www.instagram.com/bikidepia.zip/" target="_blank"><img src="img/Instagram.png"
+                        alt="instagram"></a>
+            </li>
+            <li><a href="https://www.facebook.com/share/14wd89hUSC/?mibextid=wwXIfr" target="_blank"><img
+                        src="img/Facebook.png" alt="facebook"></a></li>
+        </ul>
+    </div>
+
+    <!-- wdpop > text:first-child popup -->
+    <div class="klm-wrap">
+        <div class="klm">
+            <a href="#"><img src="img/KLMairlines.jpg" alt="KLM"></a>
+            <button type="button" class="close_btn">X</button>
+        </div>
+    </div>
+
+    <!-- popup -->
+    <div class="wdpop">
+        <div class="mainbt">
+            <h1>01</h1>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Web Design
+            </a>
+        </div>
+        <div class="container">
+            <h1 class="text">
+                <a href="https://www.klm.nl/en" target="_blank">KLM<span>Original</span></a>
+                <a href="#">Airlines<span>Redesign</span></a>
+            </h1>
+            <h1 class="text">
+                <a href="https://www.high1.com/www/index.do" target="_blank">HIGH1<span>Original</span></a>
+                <a href="https://bk0324.github.io/High1/" target="_blank">RESORT<span>Redesign</span></a>
+            </h1>
+            <h1 class="text">
+                <a href="https://www.mercedes-benz.com/en/" target="_blank">Mercedes<span>Original</span></a>
+                <a href="https://bk0324.github.io/Mercedes-benz/" target="_blank">Benz<span>Redesign</span></a>
+            </h1>
+        </div>
+        <div class="dr_arrow"><a href="#"><img src="img/upleft_arrow.png" alt="ul_arrow"></a></div>
+    </div>
+
+    <div class="adpop">
+        <div class="mainbt">
+            <h1>02</h1>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                App Design
+            </a>
+        </div>
+        <div class="container">
+            <a href="#none"><img src="img/mock-up-iphone.png" alt="mockup3"></a>
+            <a href="https://embed.figma.com/proto/0RJXrA0EuRVLTK7fYFw7Kv/%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC%EC%95%B1_%EC%BD%A9%EC%9E%87-%EC%95%B1%EB%94%94%EC%9E%90%EC%9D%B8(%ED%8C%80)?page-id=0%3A1&node-id=178-340&starting-point-node-id=178%3A340&embed-host=share"
+                target="_blank"><img src="img/Iphone16ProMax(Color1).png" alt="mockup2"></a>
+            <a href="https://embed.figma.com/proto/0RJXrA0EuRVLTK7fYFw7Kv/%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC%EC%95%B1_%EC%BD%A9%EC%9E%87-%EC%95%B1%EB%94%94%EC%9E%90%EC%9D%B8(%ED%8C%80)?page-id=0%3A1&node-id=178-340&starting-point-node-id=178%3A340&embed-host=share"
+                target="_blank"><img src="img/Iphone16(Color3).png" alt="mockup1">
+                <span class="hover-text">Click</span>
+            </a>
+        </div>
+        <div class="dl_arrow"><a href="#"><img src="img/downleft_arrow.png" alt="dl_arrow"></a></div>
+    </div>
+
+    <div class="ccpop">
+        <div class="mainbt">
+            <h1>03</h1>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Clone Coding
+            </a>
+        </div>
+        <div class="container">
+            <div class="bx active">
+                <a href="https://mangrove.city/" target="_blank">
+                    <span>Mangrove</span>
+                </a>
+                <a href="https://bk0324.github.io/mangrove/" target="_blank">
+                    <img src="img/Mangrove1.png" alt="Mangrove">
+                    <strong>Clone Coding</strong>
+                </a>
+            </div>
+            <div class="bx">
+                <a href="http://xn--jj0bv3cf1b46mlzozzclp19cz80a9np.com/" target="_blank"><span>Good Taste
+                        coffee</span></a>
+                <a href="https://bk0324.github.io/coffee/" target="_blank">
+                    <img src="img/GoodTasteCoffee.png" alt="GoodTasteCoffee">
+                    <strong>Clone Coding</strong>
+                </a>
+            </div>
+            <div class="bx">
+                <a href="Page.html"
+                    onclick="window.open(this.href, '_blank', 'width=768, height=1080;'); return false;"><span>IlsangTrip</span></a>
+                <a href="https://bk0324.github.io/ilsangtrip/" target="_blank">
+                    <img src="img/IllsangTrip.png" alt="IllsangTrip">
+                    <strong>Clone Coding</strong>
+                </a>
+            </div>
+            <div class="bx">
+                <a href="https://www.lotte.co.kr/main.do#" target="_blank"><span>Lotte Group</span></a>
+                <a href="https://bk0324.github.io/lotte/" target="_blank">
+                    <img src="img/LotteGroup.png" alt="Lotte Group">
+                    <strong>Clone Coding</strong>
+                </a>
+            </div>
+            <div class="bx">
+                <a href="https://www.thekosmos.co.kr/" target="_blank"><span>KOSMOS Ulleungdo</span></a>
+                <a href="https://bk0324.github.io/KOSMOS/" target="_blank">
+                    <img src="img/KOSMOS.png" alt="KOSMOS">
+                    <strong>Clone Coding</strong>
+                </a>
+            </div>
+        </div>
+        <div class="ur_arrow"><a href="#"><img src="img/upright_arrow.png" alt="ur_arrow"></a></div>
+    </div>
+
+    <div class="vdpop">
+        <div class="mainbt">
+            <h1>04</h1>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Various Design
+            </a>
+        </div>
+        <div class="container">
+            <ul class="Menu-list" data-offset="10">
+                <li class="Menu-list-item" data-offset="20" onclick>
+                    Detail Page Design
+                    <span class="Mask"><span>Detail Page Design</span></span>
+                    <span class="Mask"><span>Detail Page Design</span></span>
+                </li>
+                <li class="Menu-list-item" data-offset="16" onclick>
+                    SNS Banners
+                    <span class="Mask"><span>SNS Banners</span></span>
+                    <span class="Mask"><span>SNS Banners</span></span>
+                    <div class="listpop"></div>
+                </li>
+                <li class="Menu-list-item" data-offset="12" onclick>
+                    Card News
+                    <span class="Mask"><span>Card News</span></span>
+                    <span class="Mask"><span>Card News</span></span>
+                    <div class="listpop"></div>
+                </li>
+                <li class="Menu-list-item" data-offset="8" onclick>
+                    Cafe24
+                    <span class="Mask"><span>Cafe24</span></span>
+                    <span class="Mask"><span>Cafe24</span></span>
+                    <div class="listpop"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="ul_arrow"><a href="#"><img src="img/upleft_arrow.png" alt="ul_arrow"></a></div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <!-- vdpop > menu-list popup -->
+    <div class="listpop1">
+        <div class="header">Detail Page Design</div>
+        <div class="body">
+            <div class="imgbox">
+                <a href="img/Meal-kit2.pdf" target="_blank"><span>Meal-kit</span></a>
+                <a href="img/lookbook2.pdf" target="_blank"><span>Autumn Lookbook</span></a>
+                <a href="img/Dyson3.gif" target="_blank"><span>Dyson</span></a>
+            </div>
+            <a class="btn">Close</a>
+        </div>
+    </div>
+
+    <div class="listpop2">
+        <div class="header">SNS Banners</div>
+        <div class="body">
+            <div class="imgbox">
+                <a href="#"><span>Delonghi</span></a>
+                <a href="#"><span>Dubai Chocolate</span></a>
+                <a href="#"><span>Chicken Bakes</span></a>
+                <a href="#"><span>Apple Watch 9</span></a>
+            </div>
+            <a class="btn">Close</a>
+        </div>
+    </div>
+
+    <div class="listpop3">
+        <div class="header">Card News</div>
+        <div class="swiper Daegu">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/CardNews1.png" alt="CardNews1"></div>
+                <div class="swiper-slide"><img src="img/CardNews2.png" alt="CardNews2"></div>
+                <div class="swiper-slide"><img src="img/CardNews3.png" alt="CardNews3"></div>
+                <div class="swiper-slide"><img src="img/CardNews4.png" alt="CardNews4"></div>
+                <div class="swiper-slide"><img src="img/CardNews5.png" alt="CardNews5"></div>
+            </div>
+            <div class="sw-next">
+                <span></span>
+            </div>
+            <div class="sw-prev">
+                <span></span>
+            </div>
+        </div>
+        <div class="swiper Daegu2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/CardNews1.png" alt="CardNews1"></div>
+                <div class="swiper-slide"><img src="img/CardNews2.png" alt="CardNews2"></div>
+                <div class="swiper-slide"><img src="img/CardNews3.png" alt="CardNews3"></div>
+                <div class="swiper-slide"><img src="img/CardNews4.png" alt="CardNews4"></div>
+                <div class="swiper-slide"><img src="img/CardNews5.png" alt="CardNews5"></div>
+            </div>
+        </div>
+        <a class="btn">Close</a>
+    </div>
+
+    <div class="listpop4">
+        <div class="header">Cafe24
+            <a class="btn">Close</a>
+        </div>
+        <div class="body">
+            <div class="imgbox">
+                <a href="https://sjym0113.cafe24.com/" target="_blank"><img src="img/Cafe24.png" alt="Cafe24"></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".Daegu", {
+            //   cssMode: true,
+            navigation: {
+                nextEl: ".sw-next",
+                prevEl: ".sw-prev",
+            },
+            //   pagination: {
+            //     el: ".swiper-pagination",
+            //   },
+            mousewheel: true,
+            keyboard: true,
+            loop: true,
+            autoplay: true,
+            slidesPerView: 3,
+            spaceBetween: 30,
+            speed: 1000
+        });
+        var swiper = new Swiper(".Daegu2", {
+            //   cssMode: true,
+            direction: 'vertical',
+            mousewheel: true,
+            keyboard: true,
+            loop: true,
+            autoplay: true,
+            slidesPerView: 2,
+            spaceBetween: 10,
+            speed: 1000
+        });
+    </script>
+</body>
+
+</html>
